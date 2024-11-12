@@ -34,11 +34,12 @@ io.on("connection", (socket) =>{
 
 const PORT = 6001;
 
-mongoose.connect('mongodb+srv://rahul:10022004@scribnote-cluster.dbwc7w2.mongodb.net/Freelancing',{
+mongoose.connect(process.env.MONGODB_CONNECTION_STRING,{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(()=>{
 
+    console.log("Connected successfully");
 
     app.post('/register', async (req, res) =>{
         try{
