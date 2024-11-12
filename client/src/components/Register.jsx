@@ -55,7 +55,7 @@ const Register = ({ setAuthType }) => {
         <option value="admin">Admin</option>
       </select>
 
-      <button className="btn btn-primary" onClick={handleRegister}>
+      <button className="btn" onClick={handleRegister}>
         Sign up
       </button>
       <p>

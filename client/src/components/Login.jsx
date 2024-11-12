@@ -32,7 +32,7 @@ const Login = ({ setAuthType }) => {
         />
         <label htmlFor="floatingPassword">Password</label>
       </div>
-      <button type="submit" className="btn btn-primary" onClick={handleLogin}>
+      <button type="submit" className="btn" onClick={handleLogin}>
         Sign in
       </button>
 
