@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 import "../styles/landing.css";
-import { PiStudent } from "react-icons/pi";
-import { FaHandHoldingWater } from "react-icons/fa";
-import { MdHealthAndSafety } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
 const Landing = () => {
