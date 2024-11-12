@@ -230,7 +230,7 @@ const ProjectWorking = () => {
 
                     </div>
                 :
-                <i style={{color: '#938f8f'}} >Chat will be enabled if the project is assigned to you!!</i>
+                <i style={{color: '#938f8f'}} >Chat will be enabled if the project is assigned!!</i>
                 }
 
           </div>
