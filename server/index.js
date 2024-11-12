@@ -5,10 +5,12 @@ import cors from "cors";
 import bcrypt from "bcrypt";
 import { Application, Chat, Freelancer, Project, User } from "./Schema.js";
 import { Server } from "socket.io";
+import { config } from "dotenv";
 import http from "http";
 import SocketHandler from "./SocketHandler.js";
 
 const app = express();
+config();
 
 app.use(express.json());
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
