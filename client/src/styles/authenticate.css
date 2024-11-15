@@ -36,13 +36,11 @@
 
 .authForm {
   margin-top: 15vh;
-  /* border: 1px solid #cb7c7c; */
   padding: 20px;
   width: 34%;
   margin-left: 33%;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   text-align: center;
   height: max-content;
@@ -67,7 +65,6 @@
 
 .authFormInputs label {
   color: #424242;
-  /* padding: 0; */
 }
 .authFormInputs input {
   color: #424242;
@@ -75,7 +72,6 @@
   outline: none;
   background-color: rgba(231, 235, 235, 0);
   border: 1px solid #9dc1d975;
-  /* padding: 0; */
 }
 .authForm select {
   color: #424242;

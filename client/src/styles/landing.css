@@ -6,10 +6,10 @@
 .landing-nav {
   display: flex;
   justify-content: space-between;
-  height: 100px; /* Set the navbar height to 100px */
+  height: 100px; 
   padding: 0 2vw;
   align-items: center;
-  background-color: #000000; /* Black background for the navbar */
+  background-color: #000000; 
 }
 
 .landing-nav button {
@@ -33,18 +33,18 @@
 }
 
 .landing-nav button:focus {
-  outline: none; /* Remove focus outline for cleaner look */
+  outline: none; 
 }
 
 .landing-nav h3 {
   margin: 0;
   font-size: 2rem;
-  color: #ffffff; /* White text color for the navbar title */
+  color: #ffffff; 
   font-family: "Kaushan Script", cursive;
 }
 
 .landing-hero {
-  position: relative; /* To position the overlay relative to the hero section */
+  position: relative; 
   background: url("../images/freelance1.png");
   height: 89.8vh;
   width: 100%;
@@ -54,7 +54,7 @@
 }
 
 .landing-hero::after {
-  content: ""; /* Empty content to create the overlay */
+  content: ""; 
   position: absolute;
   top: 0;
   left: 0;
@@ -65,31 +65,30 @@
     0,
     0,
     0.4
-  ); /* Black color with transparency to darken the image */
-  z-index: 1; /* Ensure the overlay is below the text */
+  ); 
+  z-index: 1; 
 }
-/* Adding an overlay to make the background lighter */
 
 .landing-hero-text {
-  position: relative; /* To ensure text appears above the overlay */
+  position: relative; 
   width: 70%;
   margin-left: 15%;
   padding-top: 300px;
   text-align: center;
-  color: white; /* Black text for the words */
-  z-index: 2; /* Ensure the text is above the overlay */
+  color: white; 
+  z-index: 2; 
 }
 
 .landing-hero-text h1 {
   font-size: 3.5rem;
   font-family: "Poppins", sans-serif;
   margin: 0;
-  color: white; /* Black color for the heading */
+  color: white; 
 }
 
 .landing-hero-text p {
   font-family: "Work Sans", sans-serif;
-  color: white; /* Black color for the paragraph */
+  color: white; 
 }
 
 .landing-hero-text button {

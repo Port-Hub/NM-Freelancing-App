@@ -201,7 +201,7 @@ const ProjectData = () => {
                   ""
                 )}
                 {project.bids.includes(localStorage.getItem("userId")) ? (
-                  <button className="btn btn-primary" disabled>
+                  <button className="btn" disabled>
                     Already bidded
                   </button>
                 ) : (
